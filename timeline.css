@@ -1,0 +1,28 @@
+
+table th:nth-of-type(0) {
+	width: 10%;
+}
+
+table th:nth-of-type(2) {
+	overflow: wrap;
+	width: 80%;
+}
+
+table th:nth-of-type(3) {
+	width: 10%;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-left: 20px;
+}
+
+th {
+	text-align: left;
+	overflow: wrap;
+}
+
+tr:nth-child(odd) {
+	border-bottom: 2px solid black;
+}
