@@ -11,7 +11,7 @@
 ### Requirements
 1. python3
 1. pip3
-1. packages: toml (config), markdown (codehilite), chevron (mustache)
+1. packages: toml (config), markdown (codehilite), pygments, chevron (mustache)
 1. Somewhere to publish with rsync. Could be replaced with github pages if preferred.
 
 ### Usage
