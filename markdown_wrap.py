@@ -9,4 +9,4 @@ ext_configs = {
 
 with open(sys.argv[1], "r") as input_file:
     md = input_file.read()
-    print(markdown.markdown(md, extensions=['codehilite', 'tables'], extension_configs=ext_configs))
+    print(markdown.markdown(md, extensions=['codehilite', 'tables', 'attr_list'], extension_configs=ext_configs))

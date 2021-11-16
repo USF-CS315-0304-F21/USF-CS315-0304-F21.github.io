@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			#container {
+				width:100vw;
+			}
+			#sidebar {
+				display: inline-block;
+				float: left;
+				width: 20vw;
+			}
+			#sidebar_iframe {
+				width: 100vw;
+				height: 100vw;
+			}
+			#content {
+				display: inline-block;
+				float: left;
+			}
+			iframe {
+				border: none;
+			}
+			#content_iframe {
+				height: 100vw;
+				width: 80vw; 
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+		<p>
+		</p>
+			<div id="sidebar"> 
+				<iframe id="sidebar_iframe" src="sidebar.html"> 
+				</iframe> 
+			</div> 
+			<div id="content">
+				<iframe id="content_iframe" src="timeline.html" name="content"> 
+				</iframe> 
+			</div> 
+		</div>
+	</body>
+</html>
