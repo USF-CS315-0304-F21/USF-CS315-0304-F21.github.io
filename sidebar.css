@@ -5,3 +5,7 @@ body {
 img {
 	max-width: 200px;
 }
+
+h2 {
+	margin-bottom: -10px;
+}

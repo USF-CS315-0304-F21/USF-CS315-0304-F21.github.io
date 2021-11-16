@@ -5,10 +5,10 @@
 ## CS 221
 **C and Systems Programming**
 
+---
 
-**Instructor**  
+*Instructor*  
 Phil Peterson
 
-**Office Hours**  
-HR RR Tue/Thu 9:50 - noon, Wed 1 - 2pm
-
+*Office Hours*  
+HR 403b Tue/Thu 9:55 - 11:40am, Wed 1 - 2pm
