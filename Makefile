@@ -16,9 +16,9 @@ $(COURSE_DIR):
 	mkdir -p $(COURSE_DIR)
 
 deploy:
-	cp -u *.html $(COURSE_DIR)
-	cp -u *.css $(COURSE_DIR)
-	cp -u *.png $(COURSE_DIR)
+	cp *.html $(COURSE_DIR)
+	cp *.css $(COURSE_DIR)
+	cp *.png $(COURSE_DIR)
 	rsync -avzh $(COURSE_DIR) phpeterson@stargate.cs.usfca.edu:public_html
 
 clean:
