@@ -14,9 +14,8 @@ tr:nth-child(odd) {
 table {
 	border-spacing: 0;
 	border-collapse: collapse;
-	font-family: sans-serif;
-	margin-top: 75px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-left: 50px;
 	margin-right: 50px;
 	width: 80vw;
 }

@@ -1,14 +1,15 @@
+<link rel="stylesheet" href="fonts.css">
 <link rel="stylesheet" href="sidebar.css">
 
-![logo](logo.png)
+![logo](logo.png){:style="max-width:200px;"}
 
-## CS 221
+## CS 221 {:style="margin-bottom:-10px;"}
 **C and Systems Programming**
 
 ---
 
-*Instructor*  
-Phil Peterson
-
-*Office Hours*  
-HR 403b Tue/Thu 9:55 - 11:40am, Wed 1 - 2pm
+| Class Links |
+|-------------|
+| [Timeline](https://www.cs.usfca.edu)     |
+| [Syllabus](https://www.cs.usfca.edu)     |
+| [Getting Help](https://www.cs.usfca.edu) |
