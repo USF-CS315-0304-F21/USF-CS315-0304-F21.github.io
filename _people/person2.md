@@ -1,6 +1,6 @@
 ---
-name: "Person Two"
+name: "Kai Burkholder"
 role: "Teaching Assistant"
-email: "person2@example.com"
+email: "keburkholder@dons.usfca.edu"
 office_hours: "Mon/Fri 3-4:30pm in CS Labs"
 ---
