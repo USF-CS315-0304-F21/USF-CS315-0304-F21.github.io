@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+	<h1>Timeline</h2>
+	{%- if site.timeline.size > 0 -%}
+		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+		<table>
+			<tr>
+				<th>Date</th>
+				<th>Topics</th>
+				<th>Section 1</th>
+			</tr>
+			{%- for row in site.timeline reversed -%}
+			<tr>
+				<td>{{ row.date | date: date_format }}</td>
+				<td>{{ row.topics | markdownify }}</td>
+				<td>
+					stuff
+				</td>
+			</tr>
+			{%- endfor -%}
+		</table>
+	{%- else -%}
+		No data yet
+	{%- endif -%}
+
+<!-- might need this
+          <a class="post-link" href="{{ post.url | relative_url }}">
+-->
+
+</div>

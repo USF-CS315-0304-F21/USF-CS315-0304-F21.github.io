@@ -13,8 +13,9 @@ permalink: /help/
 
 ### Drop-In Office Hours
 
-| [Instructor's name](mailto:computerscience@usfca.edu) (Instructor) | DD HH:MM in HR ROOM |
-| [TA's name](mailto:computerscience@usfca.edu) (Teaching Assistant) | DD HH:MM in CS Labs |
+{% for person in site.people -%}
+| [{{person.name}}](mailto:{{person.email}}) ({{person.role}}) | {{person.office_hours}} |
+{% endfor %}
 
 If our regular office hours don't match your schedule, please contact us on Piazza to make an appointment at a mutually available time.
 
